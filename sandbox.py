@@ -1,5 +1,5 @@
-apples = 'apples'
-if apples.endswith('s'):
-    apples[-1] = ''
+def randomtest(a: int, b: int) -> int:
+    return a + b
 
-print(apples)
+
+print(randomtest(1, 'a'))
